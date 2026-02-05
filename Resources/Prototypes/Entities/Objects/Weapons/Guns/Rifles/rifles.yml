@@ -55,7 +55,7 @@
     price: 500
 
 - type: entity
-  name: torakev # BUG EDIT
+  name: torakev rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
   description: A notably reliable combat rifle of an antique design originating from old Earth, nicknamed the 'Torakev' in its modernizations. Propaganda popularly depicts it as a weapon of dissidents and rebels, and as such, it is typically viewed as contraband. Feeds from .30 rifle magazines. # BUG EDIT
@@ -103,7 +103,7 @@
   - type: Appearance
 
 - type: entity
-  name: auroch # BUG EDIT
+  name: auroch rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
   description: "The M90GL 'Auroch'; a somewhat dated model of bullpup carbine, with an attached underbarrel grenade launcher. Often favored by members of the Syndicated Worker's Group for its practical, utility-focused design.\nFeeds from .20 rifle magazines." # BUG EDIT
@@ -147,7 +147,7 @@
   - type: Appearance
 
 - type: entity
-  name: lecter # BUG EDIT
+  name: lecter rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
   description: "Gas-operated combat rifle developed by Nanotrasen's niche Ballistics Division. Operating in semi or fully automatic, its accuracy and reliability make it consistent in any theatre.\nFeeds from .20 rifle magazines." # BUG EDIT
@@ -196,7 +196,7 @@
 - type: entity
   parent: WeaponRifleLecter
   id: WeaponRifleLecterXL8
-  name: XL8
+  name: lecter-8 rifle # BUG EDIT
   description: |-
     The Experimental Lecter 8
     An unreasonably expensive military grade assault rifle with integrated optic.
@@ -221,7 +221,7 @@
     - FullAuto
 
 - type: entity
-  name: Estoc DMR
+  name: estoc dmr # BUG EDIT
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleEstoc
   description: "A designated marksman rifle firing in 3-round bursts. The Estoc was designed as the Lecter’s long-range counterpart, equipped with an extended 20-inch barrel and telescopic sight.\nFeeds from .20 rifle magazines."
@@ -289,10 +289,10 @@
   - type: Appearance
 
 - type: entity
-  name: Foam Force Astro Ace
+  name: foam rifle # BUG EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
-  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
+  description: The Foam Force Astro Ace, a premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_rifle.rsi
