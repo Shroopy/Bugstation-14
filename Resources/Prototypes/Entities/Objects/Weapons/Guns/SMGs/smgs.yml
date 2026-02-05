@@ -229,7 +229,7 @@
   description: A truly unique firearm, the WT550 'Sheperd' was designed by Nanotrasen's pre-budget-cut Ballistics Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines. # BUG EDIT
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
+    sprite: BugObjects/Weapons/Guns/SMGs/wt550.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -242,7 +242,7 @@
         map: ["enum.GunVisualLayers.MagUnshaded"]
         shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
+    sprite: BugObjects/Weapons/Guns/SMGs/wt550.rsi
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
