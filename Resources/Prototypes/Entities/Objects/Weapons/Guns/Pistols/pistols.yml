@@ -72,10 +72,10 @@
   - type: FireOnLand # DeltaV - gun safety
 
 - type: entity
-  name: viper
+  name: viper pistol # BUG EDIT
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A common handgun featuring illegal Syndicate modifications. The standard sidearm for any soldier who fights under the Syndicated Worker’s Group. Feeds from .35 pistol magazines. # BUG EDIT
+  description: A common handgun featuring illegal Syndicate modifications. The standard sidearm for any soldier under the Syndicated Worker’s Group. Feeds from .35 pistol magazines. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -110,7 +110,7 @@
     price: 1000
 
 - type: entity
-  name: echis
+  name: echis pistol # BUG EDIT
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
   description: A cyborg-mounted weapon system based on the Viper pistol. Creates ammunition on the fly from an internal fabricator, which slowly self-charges.
@@ -144,7 +144,7 @@
   - type: AmmoCounter
 
 - type: entity
-  name: cobra
+  name: cobra pistol # BUG EDIT
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
   description: Integrally suppressed semi-automatic pistol used by the Syndicate, firing caseless subsonic rounds. Supposedly favored by the fabled "Gordian Society," a Syndicate group dismissed by most as conspiratorial myth. Feeds from .25 pistol magazines. # BUG EDIT
@@ -195,7 +195,7 @@
     price: 1500
 
 - type: entity
-  name: krait # BUG EDIT
+  name: krait pistol # BUG EDIT
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolMk58
   description: Designed by Nanotrasen’s Ballistics Division, the Mk58 'Krait' is a conventional semi-automatic pistol with a simple recoil-operated action and excellent reliability. The standard sidearm of Nanotrasen’s station security and emergency response teams. Feeds from .35 pistol magazines. # BUG EDIT
@@ -243,7 +243,7 @@
             - CartridgePistol
 
 - type: entity
-  name: monarch # BUG EDIT
+  name: monarch pistol # BUG EDIT
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolN1984
   description: An extremely outdated ballistic handgun design, brought back from the grave as the N1984 "Monarch" by Nanotrasen's underfunded Ballistics Division. Generally considered too unwieldy for standard use, but has become something of a status symbol among Nanotrasen officials. Feeds from .45 pistol magazines. # BUG EDIT
@@ -288,7 +288,7 @@
             - CartridgeMagnum
 
 - type: entity
-  name: monarch # BUG EDIT
+  name: monarch pistol # BUG EDIT
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Nonlethal
   suffix: Non-lethal

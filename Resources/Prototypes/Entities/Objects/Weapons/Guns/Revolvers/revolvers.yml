@@ -53,7 +53,7 @@
     price: 500
 
 - type: entity
-  name: deckard # BUG EDIT
+  name: deckard revolver # BUG EDIT
   parent: [BaseWeaponRevolver, BaseSecurityCommandContraband]
   id: WeaponRevolverDeckard
   description: A custom-built revolver typically found in the hands of commanding officers. Used when there is no time for the Voight-Kampff test. Loads 5 rounds of .45 magnum. # BUG EDIT
@@ -81,7 +81,7 @@
     price: 1500
 
 - type: entity
-  name: inspector # BUG EDIT
+  name: inspector revolver # BUG EDIT
   parent: [BaseWeaponRevolver, BaseSecurityContraband]
   id: WeaponRevolverInspector
   description: A double-action service revolver made as a collaborative design between various NT-adjacent arms manufacturers. Standard-issue for Nanotrasen-hired private investigators. You feel lucky just holding it. Loads 6 rounds of .45 magnum. # BUG EDIT
@@ -98,7 +98,7 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: mateba # BUG EDIT
+  name: mateba revolver # BUG EDIT
   parent: [BaseWeaponRevolver, BaseMajorContraband]
   id: WeaponRevolverMateba
   description: A modern revolver used by Nanotrasen’s elite, near mythical ‘Death Squad’ task force. Its unique trigger action and barrel placement enable a high fire rate with minimal muzzle flip. Many have looked down this barrel, but few have lived to tell of it. Loads 6 rounds of .45 magnum.
@@ -123,7 +123,7 @@
     proto: CartridgeMagnumAP
 
 - type: entity
-  name: python # BUG EDIT
+  name: python revolver # BUG EDIT
   parent: [BaseWeaponRevolver, BaseSyndicateContraband]
   id: WeaponRevolverPython
   description: An infamous double-action revolver of outdated design, produced by Ryūjin Family arms manufacturers. Loud and flashy, perfect for any agent looking to make a statement. Loads 6 rounds of .45 magnum. # BUG EDIT

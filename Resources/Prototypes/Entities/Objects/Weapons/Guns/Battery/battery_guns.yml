@@ -149,7 +149,7 @@
     - Belt
 
 - type: entity
-  name: svalinn laser pistol
+  name: svalinn pistol # BUG EDIT
   parent: [BaseWeaponPowerCellSmall, BaseSecurityContraband]
   id: WeaponLaserSvalinn
   description: A cheap and widely used laser pistol.
@@ -274,7 +274,7 @@
   - type: Appearance
 
 - type: entity
-  name: sabre # BUG EDIT
+  name: sabre carbine # BUG EDIT
   parent: [BaseLaserRifle, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCarbine
   description: A common service carbine designed by Nanotrasen's Energy Defense Division. Fittingly nicknamed the 'Sabre' after the armaments of ancient Earth cavalry teams. # BUG EDIT
@@ -331,7 +331,7 @@
     # End DeltaV additions
 
 - type: entity
-  name: kukri # BUG EDIT
+  name: kukri pistol # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponPulsePistol
   description: An esteemed product of NT's Energy Defense Division, typically seen in the hands and holsters of their operatives. # BUG EDIT
@@ -371,7 +371,7 @@
     - LaserWeapon
 
 - type: entity
-  name: falchion # BUG EDIT
+  name: falchion carbine # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCarbine
   description: A high-tech energy carbine developed Nanotrasen to be a reliable tool of their emergency response teams. # BUG EDIT
@@ -409,7 +409,7 @@
     startingCharge: 5000
 
 - type: entity
-  name: trident # BUG EDIT
+  name: trident rifle # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseRifle
   description: The 'Trident' pulse rifle; an infamous tool designed by Nanotrasen's equally-famous Energy Defense Division. # BUG EDIT
@@ -445,7 +445,7 @@
     startingCharge: 40000
 
 - type: entity
-  name: claymore # BUG EDIT
+  name: claymore cannon # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCannon
   description: A heavy-duty laser cannon, and the pride and joy of many an Energy Defense Division scientist. # BUG EDIT
@@ -587,7 +587,7 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: disabler
+  name: disabler pistol
   parent: [WeaponDisablerPractice, BaseSecurityCommandContraband]
   id: WeaponDisabler
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
@@ -616,7 +616,7 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: enervator # BUG EDIT
+  name: enervator smg # BUG EDIT
   parent: [BaseWeaponBattery, BaseSecurityContraband]
   id: WeaponDisablerSMG
   description: An advanced variant of the classic disabler pistol in the form of a submachine gun, made to weaken targets until they collapse. # BUG EDIT
@@ -719,7 +719,7 @@
     fireCost: 200
 
 - type: entity
-  name: sovnya # BUG EDIT
+  name: sovnya pistol # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
   description: The Sovnya laser pistol is one of antique design, often given to captains as a symbol of tradition. # BUG EDIT
@@ -764,7 +764,7 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: falcata # BUG EDIT
+  name: falcata pistol # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponAdvancedLaser
   description: An experimental high-energy laser pistol with a self-charging nuclear battery.

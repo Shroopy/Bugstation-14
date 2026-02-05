@@ -61,7 +61,7 @@
     price: 500
 
 - type: entity
-  name: atreides # BUG EDIT
+  name: atreides smg # BUG EDIT
   parent: [BaseWeaponSubMachineGun, BaseMajorContraband]
   id: WeaponSubMachineGunAtreides
   description: A rare machine pistol hailing from the Corporate Wars. Its extremely high fire rate and compact profile make it useful in close quarters combat. Despite its age, it is in remarkably good condition. Feeds from .35 SMG magazines.
@@ -84,7 +84,7 @@
   - type: Appearance
 
 - type: entity
-  name: corsair # BUG EDIT
+  name: corsair smg # BUG EDIT
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunC20r
   description: The C-20r 'Corsair' is a classic and widespread submachine gun, infamous for its use by marauders. A Corporate-Syndicate design which remains in service even to this day. Feeds from .35 SMG magazines. # BUG EDIT
@@ -124,7 +124,7 @@
     price: 5000
 
 - type: entity
-  name: corsair ROW # BUG EDIT
+  name: corsair ROW-smg # BUG EDIT
   id: WeaponSubMachineGunC20rROW
   parent: BaseItem
   description: A burst-fire C-20r 'Corsair' submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges. # BUG EDIT
@@ -164,7 +164,7 @@
   - type: AmmoCounter
 
 - type: entity
-  name: drozd # BUG EDIT
+  name: drozd smg # BUG EDIT
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunDrozd
   description: A modern SMG manufactured by Nanotrasen’s Ballistics Division. It features an exceptional rate of fire in burst mode, useful for holding defensive angles or engaging hostiles at longer ranges. Feeds from .35 SMG magazines. # BUG EDIT
@@ -223,7 +223,7 @@
     - type: Appearance
 
 - type: entity
-  name: sheperd # BUG EDIT
+  name: sheperd smg # BUG EDIT
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunWt550
   description: A truly unique firearm, the WT550 'Sheperd' was designed by Nanotrasen's pre-budget-cut Ballistics Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines. # BUG EDIT
@@ -286,7 +286,7 @@
 
 # Rubber
 - type: entity
-  name: drozd # BUG EDIT
+  name: drozd smg # BUG EDIT
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
   suffix: Non-Lethal
