@@ -1,0 +1,7 @@
+Entries:
+- author: Shroopy
+  changes:
+    - type: Tweak
+      message: Changed spesos to credits.
+  id: 1
+  time: '2026-02-05T07:23:07.0000000+00:00'
