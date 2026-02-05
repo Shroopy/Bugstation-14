@@ -55,10 +55,10 @@
     price: 500
 
 - type: entity
-  name: AKMS
+  name: torakev # BUG EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
-  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
+  description: A notably reliable combat rifle of an antique design originating from old Earth, nicknamed the 'Torakev' in its modernizations. Propaganda popularly depicts it as a weapon of dissidents and rebels, and as such, it is typically viewed as contraband. Feeds from .30 rifle magazines. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -103,10 +103,10 @@
   - type: Appearance
 
 - type: entity
-  name: M90 GL
+  name: auroch # BUG EDIT
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
-  description: "An older bullpup carbine model, with an attached underbarrel grenade launcher.\nFeeds from .20 rifle magazines."
+  description: "The M90GL 'Auroch'; a somewhat dated model of bullpup carbine, with an attached underbarrel grenade launcher. Often favored by members of the Syndicated Worker's Group for its practical, utility-focused design.\nFeeds from .20 rifle magazines." # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -147,10 +147,10 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
+  name: lecter # BUG EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
-  description: "Popular gas-operated combat rifle used heavily by Nanotrasen and SolGov. Operating in semi or fully automatic, its accuracy, stopping power, and reliability make it excel in all manner of environments.\nFeeds from .20 rifle magazines."
+  description: "Gas-operated combat rifle developed by Nanotrasen's niche Ballistics Division. Operating in semi or fully automatic, its accuracy and reliability make it consistent in any theatre.\nFeeds from .20 rifle magazines." # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/lecter.rsi # DeltaV - undo nerf gun sprites
@@ -199,7 +199,7 @@
   name: XL8
   description: |-
     The Experimental Lecter 8
-    An unreasonably expensive military grade assault rifle with integrated optic. 
+    An unreasonably expensive military grade assault rifle with integrated optic.
     Uses .20 rifle ammo.
   components:
   - type: Sprite
@@ -219,7 +219,7 @@
     - Burst
     - SemiAuto
     - FullAuto
-  
+
 - type: entity
   name: Estoc DMR
   parent: [BaseWeaponRifle, BaseSyndicateContraband]

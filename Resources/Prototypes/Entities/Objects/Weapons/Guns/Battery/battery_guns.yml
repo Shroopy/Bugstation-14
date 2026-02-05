@@ -274,10 +274,10 @@
   - type: Appearance
 
 - type: entity
-  name: laser carbine
+  name: sabre # BUG EDIT
   parent: [BaseLaserRifle, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCarbine
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: A common service carbine designed by Nanotrasen's Energy Defense Division. Fittingly nicknamed the 'Sabre' after the armaments of ancient Earth cavalry teams. # BUG EDIT
   components:
   - type: Item
     size: Large
@@ -331,10 +331,10 @@
     # End DeltaV additions
 
 - type: entity
-  name: pulse pistol
+  name: kukri # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponPulsePistol
-  description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
+  description: An esteemed product of NT's Energy Defense Division, typically seen in the hands and holsters of their operatives. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -371,10 +371,10 @@
     - LaserWeapon
 
 - type: entity
-  name: pulse carbine
+  name: falchion # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCarbine
-  description: A high tech energy carbine favoured by the NT-ERT operatives.
+  description: A high-tech energy carbine developed Nanotrasen to be a reliable tool of their emergency response teams. # BUG EDIT
   components:
   - type: Item
     size: Large
@@ -409,10 +409,10 @@
     startingCharge: 5000
 
 - type: entity
-  name: pulse rifle
+  name: trident # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseRifle
-  description: A weapon that is almost as infamous as its users.
+  description: The 'Trident' pulse rifle; an infamous tool designed by Nanotrasen's equally-famous Energy Defense Division. # BUG EDIT
   components:
   - type: Item
     size: Huge
@@ -445,10 +445,10 @@
     startingCharge: 40000
 
 - type: entity
-  name: laser cannon
+  name: claymore # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCannon
-  description: A heavy duty, high powered laser weapon.
+  description: A heavy-duty laser cannon, and the pride and joy of many an Energy Defense Division scientist. # BUG EDIT
   components:
   - type: Item
     size: Huge
@@ -616,10 +616,10 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: disabler SMG
+  name: enervator # BUG EDIT
   parent: [BaseWeaponBattery, BaseSecurityContraband]
   id: WeaponDisablerSMG
-  description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
+  description: An advanced variant of the classic disabler pistol in the form of a submachine gun, made to weaken targets until they collapse. # BUG EDIT
   components:
   - type: Item
     size: Large
@@ -764,7 +764,7 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: advanced laser pistol
+  name: falcata # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponAdvancedLaser
   description: An experimental high-energy laser pistol with a self-charging nuclear battery.
@@ -898,7 +898,7 @@
     - LaserWeapon
 
 - type: entity
-  name: energy shotgun
+  name: gladius # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponEnergyShotgun
   description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
@@ -945,7 +945,7 @@
     autoRechargePauseTime: 30
 
 - type: entity
-  name: energy magnum
+  name: mamba # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponEnergyMagnum
   description: A high powered self-charging energy pistol designed for elite security personnel. It has has three firing modes allowing for either high damage, window piercing, or non-lethal disabling.
@@ -992,10 +992,10 @@
     autoRechargePauseTime: 10
 
 - type: entity
-  name: temperature gun
+  name: thermal alternator # BUG EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponTemperatureGun
-  description: An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of war crime.
+  description: An advanced energy weapon which fires beams that alter their target's bodily temperature. Considered by most philosophers to be a crime against humanity. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
@@ -1047,7 +1047,7 @@
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 30
-  # "remove" wield bonus and penalty so borgs can use it 
+  # "remove" wield bonus and penalty so borgs can use it
   - type: GunWieldBonus
     minAngle: 0
     maxAngle: 0

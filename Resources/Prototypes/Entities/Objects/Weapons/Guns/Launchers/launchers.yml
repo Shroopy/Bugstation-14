@@ -24,7 +24,7 @@
   name: china lake
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: An antequated grenade launcher design reproduced by Ryūjin Family arms designers, commonly seen in the hands of their Sisters. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -104,10 +104,10 @@
       path: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
 
 - type: entity
-  name: RPG-7
+  name: gyges # BUG EDIT
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: A rocket-propelled grenade launcher of old Earth design. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -137,10 +137,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: gyges multi-mod # BUG EDIT
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: A modified version of the old-Earth Gyges rocket launcher. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi

@@ -45,11 +45,11 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: bulldog # BUG EDIT
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
+  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule injected with Ryūjin Family stimulants. Uses .50 shotgun shells. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -158,7 +158,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: kammerer # BUG EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
   description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
