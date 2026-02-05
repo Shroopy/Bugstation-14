@@ -719,13 +719,13 @@
     fireCost: 200
 
 - type: entity
-  name: antique laser pistol
+  name: sovnya # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
-  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with a mahogany grip and chrome filigree. The object menaces with spikes of energy. On the item is an image of a captain and a clown. The clown is dead. The captain is striking a heroic pose.
+  description: The Sovnya laser pistol is one of antique design, often given to captains as a symbol of tradition. # BUG EDIT
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/antiquelasergun.rsi # BUG EDIT
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -733,7 +733,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/antiquelasergun.rsi # BUG EDIT
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
