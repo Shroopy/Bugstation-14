@@ -135,10 +135,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: enforcer # BUG EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  description: A premium semi-automatic shotgun, and the pride of a well-armed security force. Uses .50 shotgun shells. # BUG EDIT
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Shotguns/enforcer.rsi # Delta-V
