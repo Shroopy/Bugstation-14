@@ -118,6 +118,11 @@ function getChanges(body) {
 
 // Get the highest changelog number from the changelogs file
 function getHighestCLNumber() {
+    // If changelogs file doesn't exist, highest changelog number is 0
+    if (!fs.existsSync(`../../${process.env.CHANGELOG_DIR}`)) {
+        return 0
+    }
+
     // Read changelogs file
     const file = fs.readFileSync(`../../${process.env.CHANGELOG_DIR}`, "utf8");
 
