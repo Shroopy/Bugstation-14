@@ -644,6 +644,7 @@
   - COSTUMES
   - CRATES
   - CRAYONS
+  - CREDITS # Bugstation
   - CROWBARS
   - DEFIBRILLATORS
   - DISABLERS
@@ -731,7 +732,7 @@
   - SMALL LIZARD PLUSHIES
   - SPACE STATIONS
   - SPACESUITS
-  - SPESOS
+  # - SPESOS # Bugstation - changed to credits, moved to alphabetical order
   - STEEL SHEETS
   - STUN BATONS
   - SUITS
