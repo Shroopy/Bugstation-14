@@ -23,8 +23,8 @@
 - type: entity
   parent: [BaseArmsdealerObjective, BaseSurviveObjective]
   id: ArmsdealerSaleObjective
-  description: Your contractor has tasked you to earn 50k spesos.
-  name: All the spesos
+  description: Your contractor has tasked you to earn 50k credits. # Bugstation - changed to credits
+  name: All the credits # Bugstation - changed to credits
   components:
   - type: Objective
     icon:

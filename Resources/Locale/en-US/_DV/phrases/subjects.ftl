@@ -98,7 +98,8 @@ phrase-mail = mail
 phrase-order = order
 phrase-ore-processor = ore processor
 phrase-request = request
-phrase-spesos = spesos
+# Bugstation - changed to credits
+phrase-spesos = credits
 phrase-restock = restock
 phrase-fulton = fulton
 phrase-jetpack = jetpack

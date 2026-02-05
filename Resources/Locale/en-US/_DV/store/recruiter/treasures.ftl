@@ -10,5 +10,7 @@ uplink-recruiter-cyberpen-desc = Cybersun's legal department pen with a hard-lig
 uplink-recruiter-microwave-name = Donk Co. microwave
 uplink-recruiter-microwave-desc = An advanced microwave that cooks at double speed. If somebody knew how, they could also use it to make edible weapons, but how would they?
 
-uplink-recruiter-bribe5k-name = 5000 Spesos
-uplink-recruiter-bribe5k-desc = A 5000 Speso dividend, for use in bribing security or as a tempting sign-on bonus. We are only giving you up to 5 of these.
+# Bugstation - changed to credits
+uplink-recruiter-bribe5k-name = 5000 Credits
+# Bugstation - changed to credits
+uplink-recruiter-bribe5k-desc = A 5000 Credit dividend, for use in bribing security or as a tempting sign-on bonus. We are only giving you up to 5 of these.

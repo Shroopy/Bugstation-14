@@ -99,7 +99,8 @@ stack-rolling-paper = rolling {$amount ->
 }
 
 stack-fulton = fulton
-stack-credit = speso
+# Bugstation - changed to credits
+stack-credit = credit
 stack-plasma = plasma
 stack-biomass = biomass
 stack-pyrotton = pyrotton

@@ -163,7 +163,8 @@ mail-metrics-damaged = Losses (Damaged)
 mail-metrics-tampered = Losses (Tampered)
 mail-metrics-unopened = Unopened
 mail-metrics-count-header = Packages
-mail-metrics-money-header = Spesos
+# Bugstation - changed to credits
+mail-metrics-money-header = Credits
 mail-metrics-total = Total
 mail-metrics-progress = {$opened} out of {$total} packages opened!
 mail-metrics-progress-percent = Success rate: {$successRate}%
@@ -173,7 +174,8 @@ mail-metrics-progress-percent = Success rate: {$successRate}%
 # General
 stock-trading-program-name = StockTrading
 stock-trading-title = Intergalactic Stock Market
-stock-trading-balance = Balance: {$balance} spesos
+# Bugstation - changed to credits
+stock-trading-balance = Balance: {$balance} credits
 stock-trading-no-entries = No entries
 stock-trading-owned-shares = Owned: {$shares}
 stock-trading-buy-button = Buy
