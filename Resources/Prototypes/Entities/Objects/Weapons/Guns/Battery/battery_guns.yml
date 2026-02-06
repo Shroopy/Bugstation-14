@@ -334,7 +334,7 @@
   name: kukri pulse pistol # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponPulsePistol
-  description: An esteemed product of NT's Energy Defense Division, typically seen in the hands and holsters of their operatives. # BUG EDIT
+  description: An esteemed product of NT's Energy Defense Division, typically seen in the hands and holsters of CentComm operatives. # BUG EDIT
   components:
   - type: Sprite
     sprite: BugObjects/Weapons/Guns/Battery/pulse_pistol.rsi # BUG EDIT
