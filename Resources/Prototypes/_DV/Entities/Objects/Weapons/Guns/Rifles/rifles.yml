@@ -1,5 +1,5 @@
 - type: entity
-  name: Vulcan
+  name: vulcan rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleVulcan
   description: One of the heaviest small arms to grace Security's armory, this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World". Uses .30 rifle ammo.
@@ -59,10 +59,10 @@
     sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
 
 - type: entity
-  name: CAWS-25 Jackdaw
+  name: jackdaw rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleJackdaw
-  description: The beginning of the end is heralded by the song of a Jackdaw. Uses .25 caseless ammo.
+  description: The beginning of the end is heralded by the song of a CAWS-25 Jackdaw. Uses .25 caseless ammo. # BUG EDIT
   suffix: Deathsquad
   components:
   - type: Item
@@ -118,7 +118,7 @@
     sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
 
 - type: entity
-  name: Tenebra
+  name: tenebra rifle # BUG EDIT
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleTenebra
   description: A mass-produced and minimalist rifle in bullpup design. Uses .20 rifle ammo.

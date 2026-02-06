@@ -1,9 +1,9 @@
 - type: entity
-  name: viper
+  name: viper pistol # BUG EDIT
   parent: BaseWeaponPistol
   id: WeaponPistolViperWood
   description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
-  suffix: Wood
+  suffix: wood # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/viperwood.rsi
@@ -34,11 +34,11 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: Pollock
+  name: pollock pistol # BUG EDIT
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
   description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
-  suffix: Mercenary
+  suffix: mercenary # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi
@@ -73,7 +73,7 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: psi-breaker
+  name: psi-breaker pistol # BUG EDIT
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
   description: A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
@@ -144,10 +144,10 @@
     proto: CartridgeMusket
 
 - type: entity
-  name: SLP-67 "Volk"
+  name: volk pistol # BUG EDIT
   parent: BaseWeaponPistol
   id: WeaponPistolSLP67
-  description: The SLP-67, featuring a fullsize polymer frame and extended slide, improves upon its predecessor in ergonomics, accuracy, and capacity. Uses .35 auto ammo.
+  description: The SLP-67 "Volk", featuring a fullsize polymer frame and extended slide, improves upon its predecessor in ergonomics, accuracy, and capacity. Uses .35 auto ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/slp67.rsi
@@ -176,10 +176,10 @@
             - CartridgePistol
 
 - type: entity
-  name: SLP-57
+  name: hermes pistol # BUG EDIT
   parent: BaseWeaponPistol
   id: WeaponPistolSLP57
-  description: The ubiquitous, compact, and reliable Self-Loading Pistol, Model 57. Uses .35 auto ammo.
+  description: The ubiquitous, compact, and reliable Self-Loading Pistol, Model 57, nicknamed "Hermes." Uses .35 auto ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/slp57.rsi
@@ -200,7 +200,7 @@
   parent: WeaponPistolViper
   id: WeaponPistolViperAppraisal
   name: appraisal tool
-  suffix: Gun
+  suffix: gun # BUG EDIT
   description: A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items. It will also tell you if a crate contains a completed bounty.
   components:
   - type: Item
@@ -228,7 +228,7 @@
 - type: entity
   parent: WeaponPistolPollock
   id: WeaponPistolPollockNonlethal
-  suffix: Non-lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: ItemSlots
     slots:
@@ -252,7 +252,7 @@
 - type: entity
   parent: WeaponPistolSLP57
   id: WeaponPistolSLP57Nonlethal
-  suffix: Non-lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: ItemSlots
     slots:
@@ -275,9 +275,9 @@
 
 - type: entity
   parent: BaseWeaponPistol
-  name: Mk32 "Universal"
+  name: aegaeon pistol # BUG EDIT
   id: WeaponPistolUniversal
-  description: The Mark 32 Offensive Handgun, produced by NanoTrasen's Small Arms Division. Uses .45 magnum ammo.
+  description: The Mark 32 Offensive Handgun "Aegaeon", produced by Nanotrasen's Ballistics Division. Uses .45 magnum ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi
@@ -311,7 +311,7 @@
 - type: entity
   parent: WeaponPistolUniversal
   id: WeaponPistolUniversalIncendiary
-  suffix: Incendiary
+  suffix: incendiary # BUG EDIT
   components:
   - type: ItemSlots
     slots:
@@ -335,7 +335,7 @@
 - type: entity
   parent: WeaponPistolUniversal
   id: WeaponPistolUniversalNonLethal
-  suffix: Non-lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: ItemSlots
     slots:

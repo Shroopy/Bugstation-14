@@ -1,5 +1,5 @@
 - type: entity
-  name: snubbed .45
+  name: marati revolver # BUG EDIT
   parent: BaseWeaponRevolver
   id: WeaponRevolverSnub
   description: An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
@@ -23,7 +23,7 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: k-38 masterpiece
+  name: terati revolver # BUG EDIT
   parent: BaseWeaponRevolver
   id: WeaponRevolverK38Master
   description: A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
@@ -48,7 +48,7 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: fitz special
+  name: fitz revolver # BUG EDIT
   parent: BaseWeaponRevolver
   id: WeaponRevolverFitz
   description: A compact and concealable self defence snub revolver. Uses .38 special ammo.
@@ -73,7 +73,7 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: lucky 37
+  name: clover revolver # BUG EDIT
   parent: BaseWeaponRevolver
   id: WeaponRevolverLucky
   description: Luck always beats skill, ya weasel. Uses .38 special ammo.
@@ -100,10 +100,10 @@
     price: 750
 
 - type: entity
-  name: faith
+  name: moses revolver # BUG EDIT
   parent: BaseWeaponRevolver
   id: WeaponRevolverFaith
-  description: Delivers blessings in bullet form. Uses .38 special ammo.
+  description: While nobody truly knows the designer of the "Moses" .38 revolver, its purpose is clear. Delivers blessings in bullet form. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi

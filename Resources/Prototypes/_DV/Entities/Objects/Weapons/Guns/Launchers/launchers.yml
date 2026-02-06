@@ -1,9 +1,9 @@
 - type: entity
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherChinaLakeBorg
-  name: china lake
+  name: china lake POW-gl # BUG EDIT
   suffix: Robot, energy based
-  description: PLOOP! Contains a built in replicator to slowly make more ammo.
+  description: A variant of the Ryūjin Family china lake designed for use by cyborgs. Contains a built in replicator to slowly make more ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -31,9 +31,9 @@
 - type: entity
   parent: BaseWeaponLauncher
   id: WeaponLauncherNonLethal
-  name: nonlethal launcher
+  name: kira POW-launcher # BUG EDIT
   suffix: Robot, energy based
-  description: A Cyborg Mounted Grenade Launcher, designed to fire flashbangs, or expend all of its energy to fire an EMP. Refills its own ammo
+  description: A Cyborg Mounted Grenade Launcher, designed to fire flashbangs, or expend all of its energy to fire an EMP. Refills its own ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Launchers/nonlethal_launcher.rsi
@@ -77,9 +77,9 @@
 - type: entity
   parent: BaseWeaponLauncher
   id: WeaponLauncherHydraBorg
-  name: cyborg mounted hydra
+  name: hydra POW-gl # BUG EDIT
   suffix: Robot, energy based
-  description: A cyborg mounted grenade launcher, made to fire cleannades. Refills over time.
+  description: A cyborg mounted grenade launcher, made to fire cleaning grenades. Refills over time. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannonBorg
-  name: borg pirate cannon
+  name: pirate POW-cannon # BUG EDIT
   suffix: Robot, energy based
   description: A cyborg mounted cannon that fires assorted cannonballs. It has a built in replicator to slowly make more ammo.
   components:

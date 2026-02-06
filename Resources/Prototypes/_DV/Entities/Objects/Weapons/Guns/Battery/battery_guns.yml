@@ -56,10 +56,10 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
-  name: x-01 multiphase energy gun
+  name: shashka energy pistol # BUG EDIT
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunMultiphase
-  description: This is an expensive, modern recreation of an antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time.
+  description: An expensive, modern recreation of the "Sovnya" laser pistol. This gun has several unique firemodes, but lacks the ability to recharge over time. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
@@ -175,10 +175,10 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
-  name: PDW-9 Energy Pistol
+  name: stiletto energy pistol # BUG EDIT
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunPistol
-  description: A military grade sidearm, used by many militia forces throughout the local sector.
+  description: A military grade-sidearm designated the PDW-9 "Stiletto", used by many militia forces throughout the local sector. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/energygun_pistol.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineAutomatic
-  name: IK-60 energy carbine
-  description: "A 30 round hybrid-fire energy carbine."
+  name: corbin energy carbine # BUG EDIT
+  description: A 30 round hybrid-fire energy carbine, designated as the IK-50 "Corbin." # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/energygun_carbine.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: [ BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband ]
   id: WeaponBeamCannon
-  name: beam cannon
-  description: "For when a single shot just isn't enough"
+  name: luna beam cannon # BUG EDIT
+  description: For when a single shot just isn't enough. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/beam_cannon.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: WeaponBeamDevastator
-  name: beam devastator
-  description: A powerful energy weapon that fires multiple rapid laser beams per second
+  name: eclipse beam devastator # BUG EDIT
+  description: A powerful energy weapon that fires multiple rapid laser beams per second. # BUG EDIT
   components:
   - type: Item
     size: Ginormous
@@ -366,8 +366,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: WeaponEnergyGunAdvanced
-  name: advanced energy gun
-  description: A self-recharging laser weapon powered by a miniaturized uranium reactor. The firing mode can be toggled between disable and lethal.
+  name: saturnus energy gun # BUG EDIT
+  description: A self-recharging laser weapon nicknamed "Saturnus", powered by a miniaturized uranium reactor. The firing mode can be toggled between disable and lethal. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/energygunadvanced.rsi
@@ -401,8 +401,8 @@
 - type: entity
   parent: [ BaseWeaponBattery, BaseGunWieldable ]
   id: WeaponImmolator
-  name: immolator cannon
-  description: A modified laser gun, shooting highly concetrated beams with higher intensity that ignites the target, for the cost of draining more power per shot
+  name: mercuria immolator cannon # BUG EDIT
+  description: A modified laser gun, shooting highly concetrated beams with high enough intensity to ignite the target, at the cost of per-shot energy efficiency. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/immolator.rsi
@@ -431,8 +431,8 @@
 - type: entity
   parent: [ BaseWeaponBattery, BaseGunWieldable ]
   id: WeaponImmolatorMulti
-  name: multi lens immolator cannon
-  description: A large laser cannon, similar to the Immolator Laser, with toggleable firemodes. It is frequently used by military-like forces through Nanotrasen.
+  name: multi-lens mercuria immolator cannon # BUG EDIT
+  description: A bulky enhancement to the "Mercuria" laser weapon, sporting multiple lenses for maximal effectiveness. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/multi_lens_immolator.rsi
@@ -467,7 +467,7 @@
 - type: entity
   parent: WeaponDisabler
   id: WeaponDisablerSelfCharge
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one recharges
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. Recharges over time. # BUG EDIT
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 50
@@ -475,7 +475,7 @@
 - type: entity
   parent: [ BaseItem, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponSniperGamblagator
-  name: Gamblagator
+  name: gamblagator laser rifle # BUG EDIT
   description: A monstrously powerful laser rifle. Outfitted with a scope, it requires special capacitors to be fired.
   components:
   - type: Item
@@ -525,7 +525,7 @@
   parent: BaseWeaponBattery
   id: WeaponBorgBuccaneersRevolver
   name: buccaneer's revolver
-  description: A basic sidearm used by synthetic raiders, with low capacity but higher power
+  description: A basic sidearm often seen in the hands of synthetic raiders, with low capacity but higher power. # BUG EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
@@ -588,7 +588,7 @@
 - type: entity
   parent: WeaponLaserTagGun
   id: WeaponRiggedLaserTagGun
-  suffix: Rigged
+  suffix: rigged # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/laser_tag_gun.rsi

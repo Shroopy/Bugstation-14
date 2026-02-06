@@ -1,5 +1,5 @@
 - type: entity
-  name: adjutant
+  name: adjutant shotgun # BUG EDIT
   parent: [BaseItem, BaseGunWieldable]
   id: WeaponShotgunAdjutant
   description: A semi-automatic magazine-fed shotgun manufactured by Nanotrasen. trading firerate for a compact and user-friendly design.
@@ -54,7 +54,7 @@
 - type: entity
   parent: WeaponShotgunKammerer
   id: WeaponShotgunKammererNonLethal
-  suffix: Beanbag
+  suffix: beanbag # BUG EDIT
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
@@ -99,7 +99,7 @@
 - type: entity
   parent: WeaponShotgunKammerer
   id: WeaponShotgunKammererIncendiary
-  suffix: Incendiary
+  suffix: incendiary # BUG EDIT
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunIncendiary

@@ -1,8 +1,8 @@
 - type: entity
-  name: Typewriter
+  name: typewriter smg # BUG EDIT
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunTypewriter
-  description: A modern take on the classic design used by mobsters throughout space and time. Types .35 auto ammo.
+  description: A modern take on the classic design supposedly utilized by old Earth criminals. Types .35 auto ammo. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi
@@ -50,7 +50,7 @@
   - type: Appearance
 
 - type: entity
-  name: Patos
+  name: patos pdw # BUG EDIT
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunPatos
   description: A compact and lightweight personal defense weapon, with an aggressive compensator. Uses .35 auto ammo.

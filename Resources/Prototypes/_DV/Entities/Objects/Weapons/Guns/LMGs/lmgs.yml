@@ -1,8 +1,8 @@
 - type: entity
-  name: NT-3
+  name: griffin lmg # BUG EDIT
   parent: BaseItem # The base LightMachineGun had unwanted components.
   id: WeaponLightMachinegGunNT3
-  description: An ancient weapon from the old wars, refurbished and rebranded for NT's strongest stations.
+  description: The NT-3 "Griffin"; An ancient weapon from the old wars, refurbished and rebranded for NT's strongest stations. # BUG EDIT
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/LMGs/NT-3.rsi
