@@ -719,10 +719,10 @@
     fireCost: 200
 
 - type: entity
-  name: sovnya pistol # BUG EDIT
+  name: sovnya laser pistol # BUG EDIT
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
-  description: The Sovnya laser pistol is one of antique design, often given to captains as a symbol of tradition. # BUG EDIT
+  description: The 'Sovnya' laser pistol is one of antique design, often given to captains as a symbol of tradition. # BUG EDIT
   components:
   - type: Sprite
     sprite: BugObjects/Weapons/Guns/Battery/antiquelasergun.rsi # BUG EDIT
