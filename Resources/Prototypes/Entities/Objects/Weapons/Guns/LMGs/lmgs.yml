@@ -11,7 +11,7 @@
     shape:
     - 0,0,4,3
   - type: Clothing
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: BugObjects/Weapons/Guns/LMGs/l6.rsi # BUG EDIT
     quickEquip: false
     slots:
     - Back
@@ -72,7 +72,7 @@
   description: Developed by Ryūjin Family arms manufacturers, the L6 'Wyvern' is a deadly light machine gun often used by marauders, operatives, and Mothers of the Family. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 ammo belts. # BUG EDIT
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: BugObjects/Weapons/Guns/LMGs/l6.rsi # BUG EDIT
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -106,7 +106,7 @@
       soundEmpty:
         path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
     - type: Sprite
-      sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+      sprite: BugObjects/Weapons/Guns/LMGs/l6.rsi # BUG EDIT
       layers:
         - state: base
           map: [ "enum.GunVisualLayers.Base" ]
