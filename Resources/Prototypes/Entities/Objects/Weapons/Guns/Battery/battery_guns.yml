@@ -379,7 +379,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: BugObjects/Weapons/Guns/Battery/pulse_carbine.rsi # BUG EDIT
+    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -392,7 +392,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: BugObjects/Weapons/Guns/Battery/pulse_carbine.rsi # BUG EDIT
+    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3
@@ -419,7 +419,7 @@
     shape:
     - 0,0,4,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/pulse_rifle.rsi # BUG EDIT
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -432,7 +432,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/pulse_rifle.rsi # BUG EDIT
   - type: Gun
     fireRate: 1.5
     soundGunshot:
