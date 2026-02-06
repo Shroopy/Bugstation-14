@@ -337,7 +337,7 @@
   description: An esteemed product of NT's Energy Defense Division, typically seen in the hands and holsters of their operatives. # BUG EDIT
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/pulse_pistol.rsi # BUG EDIT
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -352,7 +352,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: BugObjects/Weapons/Guns/Battery/pulse_pistol.rsi # BUG EDIT
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
