@@ -289,7 +289,7 @@
   name: drozd smg # BUG EDIT
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
-  suffix: Non-Lethal
+  suffix: non-lethal # BUG EDIT
   components:
     - type: ItemSlots
       slots:

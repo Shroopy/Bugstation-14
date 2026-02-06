@@ -129,7 +129,7 @@
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
   description: An immortal classic. Uses .50 shotgun shells.
-  suffix: Non-Lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
@@ -152,7 +152,7 @@
 - type: entity
   parent: WeaponShotgunEnforcer
   id: WeaponShotgunEnforcerRubber
-  suffix: Non-Lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag

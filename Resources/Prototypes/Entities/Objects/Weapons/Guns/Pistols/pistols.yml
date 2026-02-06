@@ -221,7 +221,7 @@
 - type: entity
   id: WeaponPistolMk58Nonlethal
   parent: WeaponPistolMk58
-  suffix: Non-lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: ItemSlots
     slots:
@@ -291,7 +291,7 @@
   name: monarch pistol # BUG EDIT
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Nonlethal
-  suffix: Non-lethal
+  suffix: non-lethal # BUG EDIT
   components:
   - type: ItemSlots
     slots:
